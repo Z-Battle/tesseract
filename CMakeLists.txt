@@ -82,7 +82,8 @@ endif()
 if (UNIX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --std=c++11")
 
-    set(LIB_pthread pthread)
+	# Android includes pthread
+    #set(LIB_pthread pthread)
 endif()
 
 ###############################################################################
