@@ -157,7 +157,9 @@ add_definitions(-DHAVE_CONFIG_H)
 add_definitions(-D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1)
 add_definitions(-DWINDLLNAME="libtesseract${VERSION_MAJOR}${VERSION_MINOR}.dll")
 
-include_directories(${Leptonica_INCLUDE_DIRS})
+include_directories(${Leptonica_INCLUDE_DIRS}) # Why do not you work?
+include_directories(/home/ubuntu/leptonica/src)
+include_directories(/home/ubuntu/android-build/leptonica/armeabi-v7a/src)
 
 include_directories(${CMAKE_BINARY_DIR})
 
