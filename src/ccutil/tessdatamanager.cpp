@@ -32,6 +32,8 @@
 #include "tprintf.h"
 #include "params.h"
 
+#define PACKAGE_VERSION "4.0.0-beta.4"
+
 namespace tesseract {
 
 TessdataManager::TessdataManager() : reader_(nullptr), is_loaded_(false), swap_(false) {

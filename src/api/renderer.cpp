@@ -25,6 +25,8 @@
 #include "genericvector.h"
 #include "renderer.h"
 
+#define PACKAGE_VERSION "4.0.0-beta.4"
+
 namespace tesseract {
 
 /**********************************************************************

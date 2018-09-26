@@ -92,6 +92,8 @@
 
 BOOL_VAR(stream_filelist, FALSE, "Stream a filelist from stdin");
 
+#define PACKAGE_VERSION "4.0.0-beta.4"
+
 namespace tesseract {
 
 /** Minimum sensible image size to be worth running tesseract. */
